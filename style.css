@@ -1,0 +1,15 @@
+p {
+animation-duration: 10s;
+animation-name: alternate;
+animation-iteration-count: infinite;
+}
+@keyframes alternate {
+from {
+margin-left: 100%;
+width: 40%;
+}
+to {
+margin-left: 0%;
+width: 40%;
+}
+}
